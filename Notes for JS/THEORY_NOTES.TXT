@@ -8,6 +8,20 @@
 
 #Comment:/*   Comment:under this part of code will not execte by the comilar    */
 
-#Note: if varible is not assgin then it is undefined
+#Note: 
+    1.if varible is not assgin then it is undefined
+    2."use strict"; : Some script new version code  to  from the lagacy code we use
+    3.alert(3-2); : run in browser not in node js
 
-#
+# Primitive Data type in java script
+    1.String:
+    2.Number:
+    3.bigint:
+    4.Booolen
+    5.undefined
+    6.Null:standAlon value (assigned free memory space) it is aobject 
+    7.symbol:unique value to identify
+# Non primitive Data type
+    1.Object : 
+
+#// typeof to get the what is there data type
