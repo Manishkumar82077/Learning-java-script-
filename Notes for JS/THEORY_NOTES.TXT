@@ -1,0 +1,13 @@
+#Constant:-that is not change able
+    1.const:-can not after assign; 
+
+#Variale:- that can be change 
+#type of variaable :-----
+    1.var:-globle scope 
+    2.let:-block scope 
+
+#Comment:/*   Comment:under this part of code will not execte by the comilar    */
+
+#Note: if varible is not assgin then it is undefined
+
+#
