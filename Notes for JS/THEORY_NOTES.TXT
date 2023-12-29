@@ -1,3 +1,10 @@
+#JavaScript is dynamic:
+    JavaScript is a dynamically typed language, 
+    which means that data types of variables are determined 
+    by the value they hold at runtime and can change throughout 
+    the program as we assign different values to them.
+
+
 #Constant:-that is not change able
     1.const:-can not after assign; 
 
@@ -25,3 +32,16 @@
     1.Object : 
 
 #// typeof to get the what is there data type
+
+# DataType conversion
+    let age = "33"
+    console.log(typeof age)
+    let NuberAge=Number(age)
+    console.log(typeof NuberAge)
+
+    "33" => 33
+    "33abc" => NaN
+    ture=> 1 / flase=>0
+    ""=> flase
+    "manish"=> ture
+
