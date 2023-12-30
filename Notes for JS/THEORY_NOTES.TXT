@@ -20,7 +20,7 @@
     2."use strict"; : Some script new version code  to  from the lagacy code we use
     3.alert(3-2); : run in browser not in node js
 
-# Primitive Data type in java script
+# Primitive Data type in java script => stack 
     1.String:
     2.Number:
     3.bigint:
@@ -28,8 +28,10 @@
     5.undefined
     6.Null:standAlon value (assigned free memory space) it is aobject 
     7.symbol:unique value to identify
-# Non primitive Data type
+# Non primitive Data type => heap 
     1.Object : 
+    2.Array 
+    3.Funsction
 
 #// typeof to get the what is there data type
 
@@ -44,5 +46,26 @@
     ture=> 1 / flase=>0
     ""=> flase
     "manish"=> ture
-    -
+    
+#operater in js
 
+    console.log(a+b);
+    console.log(a-b);
+    console.log(a*b);
+    console.log(a/b);
+    console.log(a%b);
+    console.log(a**b)=>a^b
+
+
+#comparision of data type 
+ console.log(1+2+"2")=>32
+ console.log("3"+"3")=>33
+
+ console.log(null>0)==>false
+ console.log(null==0)=>false
+ console.log(null>=0)==>ture
+
+
+ 
+
+ 
