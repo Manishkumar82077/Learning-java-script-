@@ -1,149 +1,94 @@
-#JavaScript is dynamic:
-    JavaScript is a dynamically typed language, 
-    which means that data types of variables are determined 
-    by the value they hold at runtime and can change throughout 
-    the program as we assign different values to them.
+# JavaScript Basics
 
+## Dynamic Nature:
+JavaScript is dynamically typed, determining variable data types at runtime, subject to change during execution.
 
-#Constant:-that is not change able
-    1.const:-can not after assign; 
+## Constants:
+1. `const`: Immutable after assignment.
 
-#Variale:- that can be change 
-#type of variaable :-----
-    1.var:-globle scope 
-    2.let:-block scope 
+## Variables:
+Types:
+1. `var`: Global scope.
+2. `let`: Block scope.
 
-#Comment:/*   Comment:under this part of code will not execte by the comilar    */
+## Comments:
+Use `/* Comment: This part of the code will not execute by the compiler */`
 
-#Note: 
-    1.if varible is not assgin then it is undefined
-    2."use strict"; : Some script new version code  to  from the lagacy code we use
-    3.alert(3-2); : run in browser not in node js
+## Notes:
+1. Unassigned variables are `undefined`.
+2. `"use strict";`: Upgrade scripts from legacy code.
+3. `alert(3-2);`: Browser-only, not in Node.js.
 
-# Primitive Data type in java script => stack 
-    1.String:
-    2.Number:
-    3.bigint:
-    4.Booolen
-    5.undefined
-    6.Null:standAlon value (assigned free memory space) it is aobject 
-    7.symbol:unique value to identify
-# Non primitive Data type => heap 
-    1.Object : 
-    2.Array 
-    3.Funsction
+## Primitive Data Types (Stack):
+1. String
+2. Number
+3. BigInt
+4. Boolean
+5. Undefined
+6. Null (stands alone, assigned free memory space, treated as an object)
+7. Symbol (unique identifier)
 
-#// typeof to get the what is there data type
+## Non-Primitive Data Types (Heap):
+1. Object
+2. Array
+3. Function
 
-# DataType conversion
-    let age = "33"
-    console.log(typeof age)
-    let NuberAge=Number(age)
-    console.log(typeof NuberAge)
+## Typeof Operator:
+Use `typeof` to determine variable data type.
 
-    "33" => 33
-    "33abc" => NaN
-    ture=> 1 / flase=>0
-    ""=> flase
-    "manish"=> ture
-    
-#operater in js
+## Data Type Conversion:
+let age = "33";
+console.log(typeof age);
+let NumberAge = Number(age);
+console.log(typeof NumberAge);
 
-    console.log(a+b);
-    console.log(a-b);
-    console.log(a*b);
-    console.log(a/b);
-    console.log(a%b);
-    console.log(a**b)=>a^b
+Conversion examples:
+- "33" => 33
+- "33abc" => NaN
+- true => 1 / false => 0
+- "" => false
+- "manish" => true
 
+## Operators:
+Arithmetic: +, -, *, /, %, ** (a^b)
 
-#comparision of data type 
- console.log(1+2+"2")=>32
- console.log("3"+"3")=>33
+## Comparison of Data Types:
+console.log(1 + 2 + "2"); // Result: "32"
+console.log("3" + "3"); // Result: "33"
+console.log(null > 0); // Result: false
+console.log(null == 0); // Result: false
+console.log(null >= 0); // Result: true
 
- console.log(null>0)==>false
- console.log(null==0)=>false
- console.log(null>=0)==>ture
+## String Manipulation:
+Concatenation: `Hello, my name is ${s1} and my repo count is ${repoCount}`
 
+In-built Functions:
+- repoName.length
+- repoName.toLowerCase()
+- repoName.charAt(4)
 
+## Math and Numbers:
+const score = 300;
+console.log(score);
+Math Functions: abs, round, ceil, floor, min, max
 
-
- ---------String-----------
- concatenation of String
-    console.log(`hello my name is ${s1} and my repocount is ${repoCount}`)
-
-// inbuild function string
-    console.log(repoName.length)
-    console.log(repoName.toLowerCase)
-    console.log(repoName.charAt(4))
-
-
-Math and Nums
-    const score =300;
-    console.log(score)
-    const balance = new Number(123)
-    console.log(balance)
-    console.log(balance.toFixed(2));
-    console.log(balance.toPrecision(3));//fouce on decimal before 
-    const hundred = 10000000000;
-    console.log(hundred.toLocaleString(`en-IN`));
-
-    console.log(Math.random()) //range (0-1)
- output=>
-    300
-    [Number: 123]
-    123.00
-    123
-    10,00,00,00,000
-    0.9360012355215612
-
-    // console.log(Math)
-    console.log(Math.abs(-4))
-    console.log(Math.round(4.6));
-    console.log(Math.ceil(4.4));
-    console.log(Math.floor(4.6))
-    console.log(Math.min(4,3,5,6,8,9,32,2,4,5,6,7,4));
-    console.log(Math.max(4,3,5,6,8,9,32,2,4,5,6,7,4));
-
-
-
---------------:Date and time:----------------------
-
-let MyDate = new Date()
+## Date and Time:
+let MyDate = new Date();
 console.log(MyDate.toString());
 console.log(MyDate.toDateString());
 console.log(MyDate.toLocaleString());
 
-// let CurentDate = new Date(2023,0,14)
-let CurentDate = new Date("2023-12-14")
-
+let CurentDate = new Date("2023-12-14");
 console.log(CurentDate);
 
-
-let MytimeStamp = Date.now()//time in mili secand 
+let MytimeStamp = Date.now();
 console.log(MytimeStamp);
 console.log(CurentDate.getTime());
 console.log(Date.now());
 
+## JavaScript Arrays:
+const myArr = [2, 3, 4, 5, 6, 7];
+const myArray = new Array(1, 2, 3, 4, 5, 6, 7);
 
-const myArr= [2,3,4,5,6,7]
-const myArray=new Array(1,2,3,4,5,6,7)
-
-console.log(myArray[1])
-myArray.pop(4)
-myArray.push(7)
-myArray.shift(6)
-
-// slice vs splice 
-
-console.log("A ", myArr);
-
-const myn1 = myArr.slice(1, 3)
-
-console.log(myn1);
-console.log("B ", myArr);
-
-
-const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);
-console.log(myn2);
+Array Operations: pop, push, shift
+Slice vs Splice: myArr.slice(1, 3), myArr.splice(1, 3)

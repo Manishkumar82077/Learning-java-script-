@@ -5,7 +5,7 @@ console.log(myArray[1])
 myArray.pop(4)
 myArray.push(7)
 myArray.shift(6)
-
+ myArray.unshift(5)
 // slice vs splice 
 
 console.log("A ", myArr);
