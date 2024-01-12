@@ -55,8 +55,19 @@ const course = {
     price: "999",
     couseInstructure: "hitesh"
 }
-
+//destrucurre of object 
 const { couseInstructure: instructor } = course;
+
+// const navbar=(props.company)=>{
+ 
+// }
+
+// same as upper 
+
+// const navbar=({company})=>{
+ 
+// }
+
 
 console.log(instructor); // This will log "hitesh" to the console
 
