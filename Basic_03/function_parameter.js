@@ -1,14 +1,14 @@
-// // function sayMyName(){
-// //     console.log();
-// // }
-// // sayMyName--> function name 
-// //(----) => function parameter
+// function sayMyName(){
+//     console.log();
+// }
+// sayMyName--> function name 
+//(----) => function parameter
 
-// // function AddToNumber(number1,number2) {
-// //     return number1+number2;
-// // }
-// // let result=AddToNumber(23,234)
-// // console.log(result);
+// function AddToNumber(number1,number2) {
+//     return number1+number2;
+// }
+// let result=AddToNumber(23,234)
+// console.log(result);
 
 // function loginuserMessage(username) {
 //     if(!username){
