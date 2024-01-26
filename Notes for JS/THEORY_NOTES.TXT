@@ -92,3 +92,28 @@ const myArray = new Array(1, 2, 3, 4, 5, 6, 7);
 
 Array Operations: pop, push, shift
 Slice vs Splice: myArr.slice(1, 3), myArr.splice(1, 3)
+
+
+
+
+----------------#DOM(DOCUMENT OBJECT MODEL )---------------------
+WINDOW
+-->  DOCUMENT   -->HTML 
+1.HEAD 
+    1.TITLE 
+        1.TEXT Node
+    2.META 
+        1.Attitude
+2.BODY
+    div 
+        h1 
+            1.attribute
+            2.textnode
+        p
+            1.textnode
+
+# DOM SELECTOR
+ DOCUMENT.querySelrcter()
+ 
+
+document.getElementById("demo").innerHTML = "Hello World!";
